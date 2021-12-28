@@ -9,29 +9,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link href="./scss/main.scss" rel="stylesheet" />
-    <script src="./ts/main.ts"></script>
+    <script src="./ts/main.ts" type="module"></script>
     <title>En Bloggsida om bloggar</title>
   </head>
   <body>
     <header>
-      <div class="function-header">
-        <div class="navbar">
-          <div class="logo">
-            <h1>BLOGG PAGE</h1>
-          </div>
-
-          <nav class="menu">
-            <ul>
-              <li><a href="#index">Start</a></li>
-              <li><a href="#">Bloggar</a></li>
-              <li><a href="#">Om Oss</a></li>
-              <li><a href="#">Kontakt</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="hamburger">
-          <i class="fa fa-bars"></i>
-        </div>
+        <nav class="navbar">
+          <a href="#" class="nav-branding">BLOGG PAGE</a>
+          <ul class="nav-menu">
+            <li class="navItem">
+              <a href="#index" class="nav-link">Start</a>
+            </li>
+            <li class="navItem"><a href="#" class="nav-link">Bloggar</a></li>
+            <li class="navItem"><a href="#" class="nav-link">Om Oss</a></li>
+            <li class="navItem"><a href="#" class="nav-link">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="burgerBtn" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
     </header>
   </body>
