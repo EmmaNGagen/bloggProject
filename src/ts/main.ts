@@ -2,6 +2,11 @@ window.onload = function () {
   theBarNav();
 };
 
-export function theBarNav() {}
-let hamburger: HTMLDivElement = document.querySelector("burgerBtn");
-let navMenu: HTMLUListElement = document.querySelector(".nav-menu");
+function theBarNav() {
+  let hamburger: HTMLDivElement = document.querySelector(".hamburger");
+  let navMenu: HTMLUListElement = document.querySelector(".nav-menu");
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  });
+}
