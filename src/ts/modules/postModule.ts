@@ -1,6 +1,6 @@
 import { Blog } from "./bloggModule";
 
-class Post {
+export class Post {
     id: number;
     title: string;
     text: string;
