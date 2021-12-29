@@ -1,12 +1,6 @@
 import { theBarNav } from "./header";
-import { listOfBlogs } from "./functions/bloggList";
-import { listOfPosts } from "./functions/postList";
-import { landingPage } from "./landingpage";
-
+import { displayBlogs } from "./functions/displayBlogs";
 window.onload = function () {
-  listOfBlogs();
-  listOfPosts();
   theBarNav();
-  landingPage();
-  landingPage();
+  displayBlogs();
 };
