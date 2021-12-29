@@ -7,9 +7,29 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  .imgContainer {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
+}
+.theMainWrap {
+  padding-top: 20px;
+}
+.imgContainer {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+.contenContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40.3%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: 25px;
+  .thePicture {
+    width: 90%;
+  }
+  .titleContainer {
+    text-align: center;
+    padding: 10px 20px;
   }
 }
