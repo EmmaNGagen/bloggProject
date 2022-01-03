@@ -3,6 +3,7 @@
 //Mobile/Tablet screen
 @media only screen and (max-width: 915px) {
   header {
+    z-index: 1000;
     background: #ffffff;
     width: 100%;
     display: flex;

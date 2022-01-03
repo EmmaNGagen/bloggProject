@@ -24,10 +24,12 @@ export function displayBlogs() {
     );
     console.log(listOfObjects[i].img);
     div.appendChild(imgDiv);
-    //overlay div på img
+
+    //overlay div på img desktop-läge
     const overlay: HTMLDivElement = document.createElement("div");
     overlay.className = "overlay";
     imgDiv.appendChild(overlay);
+
     //titlen
     const spanTitle: HTMLSpanElement = document.createElement("span");
     spanTitle.className = "titleContent";
@@ -54,5 +56,21 @@ export function displayBlogs() {
     const icon: HTMLSpanElement = document.createElement("i");
     icon.className = "fa fa-instagram instaIcon";
     divtwo.appendChild(icon);
+
+    // div under img mobile läge
+    const divUnder: HTMLDivElement = document.createElement("div");
+    divUnder.className = "divUnderImg";
+    div.appendChild(divUnder);
+    //titlen
+    const titleSpan: HTMLSpanElement = document.createElement("span");
+    titleSpan.className = "titleContent";
+    titleSpan.innerHTML = listOfObjects[i].title;
+    divUnder.appendChild(titleSpan);
+
+    //Date
+    const dateUser: HTMLSpanElement = document.createElement("p");
+    dateUser.className = "userDate";
+    dateUser.innerHTML = "Senast uppdaterad " + listOfObjects[i].date;
+    divUnder.appendChild(dateUser);
   }
 }
