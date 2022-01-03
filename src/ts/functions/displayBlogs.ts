@@ -9,8 +9,9 @@ export function displayBlogs() {
     const div: HTMLDivElement = document.createElement("div");
     div.className = "contentContainer";
     mainWrapper.appendChild(div);
+
     //id
-    const bloggId: HTMLSpanElement = document.createElement("span");
+    /*    const bloggId: HTMLSpanElement = document.createElement("span");
     bloggId.className = "idOfBlogg";
     bloggId.innerHTML = listOfObjects[i].id.toString();
     //titlen
@@ -18,6 +19,7 @@ export function displayBlogs() {
     spanTitle.className = "titleContent";
     spanTitle.innerHTML = listOfObjects[i].title;
     div.appendChild(spanTitle);
+    bloggId.innerHTML = listOfObjects[i].id;*/
 
     //bilden
     const imgDiv: HTMLDivElement = document.createElement("div");
@@ -29,16 +31,52 @@ export function displayBlogs() {
     console.log(listOfObjects[i].img);
     div.appendChild(imgDiv);
 
-    //User
-    const userTitle: HTMLSpanElement = document.createElement("p");
-    userTitle.className = "userTitle";
-    userTitle.innerHTML = listOfObjects[i].user;
-    div.appendChild(userTitle);
+    //overlay div på img desktop-läge
+    const overlay: HTMLDivElement = document.createElement("div");
+    overlay.className = "overlay";
+    imgDiv.appendChild(overlay);
+
+    //titlen
+    const spanTitle: HTMLSpanElement = document.createElement("span");
+    spanTitle.className = "titleContent";
+    spanTitle.innerHTML = listOfObjects[i].title;
+    overlay.appendChild(spanTitle);
 
     //Date
     const userDate: HTMLSpanElement = document.createElement("p");
     userDate.className = "userDate";
-    userDate.innerHTML = listOfObjects[i].date.toString();
-    div.appendChild(userDate);
+    userDate.innerHTML = "Senast uppdaterad " + listOfObjects[i].date;
+    overlay.appendChild(userDate);
+
+    //div för texterna nedan
+    const divtwo: HTMLDivElement = document.createElement("div");
+    divtwo.className = "contentContainerTwo";
+    div.appendChild(divtwo);
+
+    //User
+    const userTitle: HTMLSpanElement = document.createElement("h2");
+    userTitle.className = "userTitle";
+    userTitle.innerHTML = listOfObjects[i].user;
+    divtwo.appendChild(userTitle);
+    //Icon
+    const icon: HTMLSpanElement = document.createElement("i");
+    icon.className = "fa fa-instagram instaIcon";
+    divtwo.appendChild(icon);
+
+    // div under img mobile läge
+    const divUnder: HTMLDivElement = document.createElement("div");
+    divUnder.className = "divUnderImg";
+    div.appendChild(divUnder);
+    //titlen
+    const titleSpan: HTMLSpanElement = document.createElement("span");
+    titleSpan.className = "titleContent";
+    titleSpan.innerHTML = listOfObjects[i].title;
+    divUnder.appendChild(titleSpan);
+
+    //Date
+    const dateUser: HTMLSpanElement = document.createElement("p");
+    dateUser.className = "userDate";
+    dateUser.innerHTML = "Senast uppdaterad " + listOfObjects[i].date;
+    divUnder.appendChild(dateUser);
   }
 }

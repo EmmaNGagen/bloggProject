@@ -23,72 +23,72 @@ export class Blog {
 export let listOfObjects: Blog[] = [];
 let blogOne: Blog = new Blog(
   1,
-  "blog one",
+  "Nyhetsblogg",
   "https://i.ibb.co/Y3r1MqP/blog-img-1.jpg",
-  "user one",
+  "Jenny Strömstedt",
   "19 maj"
 );
 let blogTwo: Blog = new Blog(
   2,
-  "blog two",
+  "Beautyblogg",
   "https://i.ibb.co/GVWVP0S/blog-img-2.jpg",
-  "user two",
+  "Elsa Billgren",
   "22 mars"
 );
 let blogThree: Blog = new Blog(
   3,
-  "blog three",
+  "Modeblogg",
   "https://i.ibb.co/wgG55g3/blog-img-3.jpg",
-  "user three",
+  "Janice Kavander",
   "9 april"
 );
 let blogFour: Blog = new Blog(
   4,
-  "blog four",
+  "Musikblogg",
   "https://i.ibb.co/mc0Znhy/blog-img-4.jpg",
-  "user four",
+  "Sabina Ddumba",
   "13 november"
 );
 let blogFive: Blog = new Blog(
   5,
-  "blog five",
+  "Livsstilsblogg",
   "https://i.ibb.co/cKq6H78/blog-img-5.jpg",
-  "user five",
+  "Filip Dikmen",
   "20 juni"
 );
 let blogSix: Blog = new Blog(
   6,
-  "blog six",
+  "Träningsblogg",
   "https://i.ibb.co/Sff23xf/blog-img-6.jpg",
-  "user six",
+  "Jesper Johansson",
   "16 juli"
 );
 let blogSeven: Blog = new Blog(
   7,
-  "blog seven",
+  "Filmbloggen",
   "https://i.ibb.co/xsmvbPk/blog-img-7.jpg",
-  "user seven",
+  "Hans Wiklund",
   "10 september"
 );
 let blogEight: Blog = new Blog(
   8,
-  "blog eight",
+  "Schlagerblogg",
   "https://i.ibb.co/RYNfDwV/blog-img-8.jpg",
-  "user eight",
+  "Tobbe Ek",
   "15 november"
 );
 let blogNine: Blog = new Blog(
   9,
-  "blog nine",
+  "Modeblogg",
   "https://i.ibb.co/P60kTyz/blog-img-9.jpg",
-  "user nine",
+  "Michaela Delér",
   "22 november"
 );
 let blogTen: Blog = new Blog(
   10,
-  "blog ten",
+  "Beautyblogg",
   "https://i.ibb.co/cX7G5Sp/blog-img-10.jpg",
-  "user ten",
+  "Linda Hallberg",
   "16 januari"
 );
 listOfObjects.push(
