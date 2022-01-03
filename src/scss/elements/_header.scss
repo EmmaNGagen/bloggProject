@@ -11,13 +11,8 @@
     position: fixed;
     top: 0;
     left: 0;
-
-    .navbar {
-      min-height: 70px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 20px;
+    .nav-branding {
+      padding: 10px 20px;
       .imgLogo {
         height: 45px;
       }
@@ -66,7 +61,32 @@
   .nav-menu.active {
     left: 0;
   }
+  .secondary-wreapper {
+    position: fixed;
+    right: 0;
+    padding-top: 20px;
+    padding-right: 60px;
 
+    .secondary-items {
+      .loginBtn {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        height: 32px;
+        padding: 8px 8px 4px;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        border-radius: 4px;
+        //border: 1px solid #000;
+        cursor: pointer;
+      }
+    }
+  }
+  .loginBtn:hover {
+    background-color: rgb(124, 126, 128) !important;
+    border: none;
+  }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -81,41 +101,49 @@
 //Desktop screen
 @media only screen and (min-width: 915px) {
   header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    height: 80px;
+    top: -5px;
     background: #ffffff;
-    //border-bottom: 2px solid rgba(0, 0, 0, 0.42);
-    .navbar {
-      min-height: 70px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 20px;
+
+    .nav-branding {
+      padding: 10px 20px;
       .imgLogo {
         height: 50px;
       }
     }
   }
-
-  .nav-menu {
+  .navbar {
+    height: 70px;
+    position: sticky;
+    top: 0;
+    flex-grow: 1;
     display: flex;
-    padding-right: 15px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    li {
-      list-style: none;
-      a {
-        display: block;
-        width: 120px;
-        margin-right: 10px;
-        text-align: center;
-        font-weight: 500;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: rgb(0, 0, 0);
-        border: 10px;
-        border-radius: 15px 50px;
-        letter-spacing: 2px;
-        text-decoration: none;
+    justify-content: flex-start;
+
+    .nav-menu {
+      display: flex;
+      flex-direction: row;
+      padding-right: 15px;
+      gap: 10px;
+      li {
+        list-style: none;
+        a {
+          display: block;
+          width: 120px;
+          margin-right: 10px;
+          text-align: center;
+          font-weight: 500;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: rgb(0, 0, 0);
+          border: 10px;
+          border-radius: 15px 50px;
+          letter-spacing: 2px;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -125,7 +153,28 @@
   .nav-link:hover {
     color: rgb(124, 126, 128);
   }
+  .secondary-wreapper {
+    padding-right: 70px;
 
+    .secondary-items {
+      .loginBtn {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        height: 32px;
+        padding: 8px 8px 4px;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    }
+  }
+  .loginBtn:hover {
+    background-color: rgb(124, 126, 128) !important;
+    border: none;
+  }
   .hamburger {
     display: none;
     cursor: pointer;
