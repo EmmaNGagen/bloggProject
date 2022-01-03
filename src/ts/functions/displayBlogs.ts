@@ -12,7 +12,7 @@ export function displayBlogs() {
     //id
     const bloggId: HTMLSpanElement = document.createElement("span");
     bloggId.className = "idOfBlogg";
-    bloggId.innerHTML = listOfObjects[i].id;
+    bloggId.innerHTML = listOfObjects[i].id.toString();
     //titlen
     const spanTitle: HTMLSpanElement = document.createElement("span");
     spanTitle.className = "titleContent";
@@ -38,7 +38,7 @@ export function displayBlogs() {
     //Date
     const userDate: HTMLSpanElement = document.createElement("p");
     userDate.className = "userDate";
-    userDate.innerHTML = listOfObjects[i].date;
+    userDate.innerHTML = listOfObjects[i].date.toString();
     div.appendChild(userDate);
   }
 }
