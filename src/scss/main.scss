@@ -1,12 +1,13 @@
 @use "elements/header";
 @use "./elements/footer";
+@use "./variables";
 
 html,
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: variables.$body-font-family;
 }
 //Landingpage
 @media only screen and (max-width: 915px) {

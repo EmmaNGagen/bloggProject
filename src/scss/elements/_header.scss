@@ -1,3 +1,4 @@
+@use "../variables";
 //Header
 //Mobile/Tablet screen
 @media only screen and (max-width: 915px) {
@@ -135,6 +136,7 @@
           width: 120px;
           margin-right: 10px;
           text-align: center;
+          font-family: variables.$body-font-family;
           font-weight: 500;
           font-size: 16px;
           text-transform: uppercase;
