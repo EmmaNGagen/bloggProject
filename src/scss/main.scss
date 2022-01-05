@@ -162,7 +162,9 @@ body {
       }
     }
   }
-
+  span.bloggId {
+    font-size: 80px;
+  }
   .imgContainer:hover .overlay {
     opacity: 1;
   }

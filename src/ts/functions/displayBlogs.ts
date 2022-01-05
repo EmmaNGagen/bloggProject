@@ -41,10 +41,10 @@ export function displayBlogs() {
     userDate.innerHTML = "Senast uppdaterad " + listOfObjects[i].date;
     overlay.appendChild(userDate);
 
-    /*const bloggId: HTMLSpanElement = document.createElement("span");
+    const bloggId: HTMLSpanElement = document.createElement("span");
     bloggId.className = "bloggId";
     bloggId.innerHTML = listOfObjects[i].id;
-    overlay.appendChild(bloggId);*/
+    overlay.appendChild(bloggId);
 
     //div för texterna nedan
     const divtwo: HTMLDivElement = document.createElement("div");
