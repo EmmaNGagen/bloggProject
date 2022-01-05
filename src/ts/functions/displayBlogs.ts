@@ -28,7 +28,11 @@ export function displayBlogs() {
     const overlay: HTMLDivElement = document.createElement("div");
     overlay.className = "overlay";
     imgDiv.appendChild(overlay);
-
+    //id
+    const bloggId: HTMLSpanElement = document.createElement("span");
+    bloggId.className = "bloggId";
+    bloggId.innerHTML = "#" + listOfObjects[i].id;
+    overlay.appendChild(bloggId);
     //titlen
     const spanTitle: HTMLSpanElement = document.createElement("span");
     spanTitle.className = "titleContent";
@@ -40,11 +44,6 @@ export function displayBlogs() {
     userDate.className = "userDate";
     userDate.innerHTML = "Senast uppdaterad " + listOfObjects[i].date;
     overlay.appendChild(userDate);
-    //id
-    const bloggId: HTMLSpanElement = document.createElement("span");
-    bloggId.className = "bloggId";
-    bloggId.innerHTML = listOfObjects[i].id;
-    overlay.appendChild(bloggId);
 
     //div för texterna nedan
     const divtwo: HTMLDivElement = document.createElement("div");
