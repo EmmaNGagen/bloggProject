@@ -142,7 +142,7 @@ body {
       transition: 0.5s ease;
       background-color: #d8dcdcad;
       .titleContent {
-        font-size: 20px;
+        font-size: 30px;
         position: absolute;
         top: 40%;
         left: 50%;
@@ -163,7 +163,8 @@ body {
     }
   }
   span.bloggId {
-    font-size: 80px;
+    font-size: 50px;
+    text-align: center;
   }
   .imgContainer:hover .overlay {
     opacity: 1;
