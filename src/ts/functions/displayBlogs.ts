@@ -10,17 +10,6 @@ export function displayBlogs() {
     div.className = "contentContainer";
     mainWrapper.appendChild(div);
 
-    //id
-    /*    const bloggId: HTMLSpanElement = document.createElement("span");
-    bloggId.className = "idOfBlogg";
-    bloggId.innerHTML = listOfObjects[i].id.toString();
-    //titlen
-    const spanTitle: HTMLSpanElement = document.createElement("span");
-    spanTitle.className = "titleContent";
-    spanTitle.innerHTML = listOfObjects[i].title;
-    div.appendChild(spanTitle);
-    bloggId.innerHTML = listOfObjects[i].id;*/
-
     //bilden
     const imgDiv: HTMLDivElement = document.createElement("div");
     imgDiv.className = "imgContainer";
@@ -29,7 +18,8 @@ export function displayBlogs() {
       `background-image:url(${listOfObjects[i].img})`
     );
     imgDiv.addEventListener("click", () => {
-      location.href = "http://localhost:1234/pages/blogg.html?id=" + listOfObjects[i].id;
+      location.href =
+        "http://localhost:1234/pages/blogg.html?id=" + listOfObjects[i].id;
     });
     console.log(listOfObjects[i].img);
     div.appendChild(imgDiv);
@@ -50,6 +40,11 @@ export function displayBlogs() {
     userDate.className = "userDate";
     userDate.innerHTML = "Senast uppdaterad " + listOfObjects[i].date;
     overlay.appendChild(userDate);
+
+    /*const bloggId: HTMLSpanElement = document.createElement("span");
+    bloggId.className = "bloggId";
+    bloggId.innerHTML = listOfObjects[i].id;
+    overlay.appendChild(bloggId);*/
 
     //div för texterna nedan
     const divtwo: HTMLDivElement = document.createElement("div");
