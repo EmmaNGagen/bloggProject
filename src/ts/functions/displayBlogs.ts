@@ -28,6 +28,9 @@ export function displayBlogs() {
       "style",
       `background-image:url(${listOfObjects[i].img})`
     );
+    imgDiv.addEventListener("click", () => {
+      location.href = "http://localhost:1234/pages/blogg.html?id=" + listOfObjects[i].id;
+    });
     console.log(listOfObjects[i].img);
     div.appendChild(imgDiv);
 
