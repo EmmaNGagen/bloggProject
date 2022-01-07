@@ -12,15 +12,15 @@ export class Post {
     text: string,
     date: string,
     blogId: Blog
-    ) {
-      this.id = id;
-      this.title = title;
-      this.text = text;
-      this.date = date;
-      this.blogId = blogId;
-    }
+  ) {
+    this.id = id;
+    this.title = title;
+    this.text = text;
+    this.date = date;
+    this.blogId = blogId;
+  }
 }
- 
+
 export let listOfPost: Post[] = [];
 
 //
@@ -29,71 +29,71 @@ export let listOfPost: Post[] = [];
 
 let postOne: Post = new Post(
   "1",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr 1",
+  "Smarta tipsen för att klara dig fram till nästa lön Januari brukar kallas den fattigaste månaden på året. Klassiska tips för att överleva är att dra ner på småkostnader och se över matkontot. Sparekonomen Sharon Lavie kan ge dig flera tips för hur du ska göra för att överleva hela jan",
   "",
   listOfObjects[0]
 );
 let postTwo: Post = new Post(
   "1",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr 2",
+  "Smittspridningen av coronaviruset fortsätter att öka runt om i världen. TV4 Nyheternas utrikesreporter Petra Nordlund McGahan rapporterade direkt från Storbritannien och tokyobon Anton Wörmann från Japan.",
   "",
   listOfObjects[0]
 );
 let postThree: Post = new Post(
   "1",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr 3",
+  "Varför är det så svårt att hålla en hälsosam vikt och leva i harmoni med våra kroppar? Storbritanniens mest kända läkare, Rangan Chatterjee ger svaren och lösningarna i sin nya bok Viktbalansen.",
   "",
   listOfObjects[0]
 );
 let postFour: Post = new Post(
   "1",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr 4",
+  "Oro för ökad smitta efter jul: 'Funkar inte att hålla avstånd i skolan', Lärarna oroliga",
   "",
   listOfObjects[0]
 );
 let postFive: Post = new Post(
   "1",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr 5",
+  "Den ryska björnen har ställt sig på bakbenen och viftar varnande med tassarna. Hur rädd ska man vara för hoten från Moskva? Ganska ängslig är jag rädd.",
   "",
   listOfObjects[0]
 );
 let postSix: Post = new Post(
   "1",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr 6",
+  "Ett av journalistikens mål är att ge röst till människor. Så vad händer med den - och samhället - när få vill eller vågar tala?",
   "",
   listOfObjects[0]
 );
 let postSeven: Post = new Post(
   "1",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr 7",
+  "I slutet av tonåren arbetade jag, liksom uppskattningsvis 25 procent av alla svenska småstadstjejer då, på pub i London. Det var en utmärkt skola för att lära känna engelsmännen i sitt naturliga habitat. Som svensk avnjuter man en rad positiva fördomar i Storbritannien, men det gällde förstås inte alla i pubens personalflora, som nästan uteslutande bestod av unga utlänningar. Östeuropéer sågs på med skepsis redan då.",
   "",
   listOfObjects[0]
 );
 let postEight: Post = new Post(
   "1",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr 8",
+  "För några veckor sedan skulle jag bjuda två ruggade journalistveteraner och en vacker redigerare på lunch. Jag ville inte att det skulle vara för enkelt men heller inte tillgjort flott och valde därför järnvägsrestaurangen Luzette på Stockholms Central, en riktig krog med vita dukar och bordsservering och samtidigt med atmosfär av resa och äventyr. Bara ljudet av tågvisslor fattas.",
   "",
   listOfObjects[0]
 );
 let postNine: Post = new Post(
   "1",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr 9",
+  "Jag chattade med en vän om min besvikelse efter de två första avsnitten av And just like that …. Det har visserligen gått nästan 20 år sen Sex and the city gick men jag tyckte Carrie, Miranda och Charlotte inte stod att känna igen. Min kompis skrev: ”Jag har tänkt en del på irritationen över att huvudpersonerna stelnat och blivit töntiga. Tydligen har folk ingen realistisk syn på åldrande.”",
   "",
   listOfObjects[0]
 );
 let postTen: Post = new Post(
   "1",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr 10",
+  "Ghislaine Maxwell har, till skillnad från sin forne pojkvän och mentor i sexualbrottslighet Jeffrey Epstein, inte haft den goda smaken att ta livet av sig. Det måste ha gjort en hel drös med andra i hennes och Epsteins umgängeskrets – däribland Bill Clinton, Tony Blair, Donald Trump och prins Andrew – ganska nervösa.",
   "",
   listOfObjects[0]
 );
@@ -114,74 +114,74 @@ listOfPost.push(
 //
 // TILL BLOGG 2
 //
-  
+
 let postOneTwo: Post = new Post(
   "2",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Post nr 1",
+  "I totally didn’t expect this look to end up so glittery and pink, but hey, it’s Friday, so might as well, right? I’m using the new Rare Beauty products I picked up earlier this week! As you can see, the Discovery Eyeshadow Palette in True to Myself leans very warm. Not my usual style as of late (I’ve been really into cool tones), but I’m having fun with it.",
   "",
   listOfObjects[1]
 );
 let postTwoTwo: Post = new Post(
   "2",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Post nr 2",
+  "Yesterday I had a DAY (work has been a little challenging), so I did some therapy of the retail variety at Sephora! I picked up some products from Rare Beauty, a vegan and cruelty-free makeup line by actress, singer (and cooking show host!) Selena Gomez.",
   "",
   listOfObjects[1]
 );
 let postThreeTwo: Post = new Post(
   "2",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Post nr 3",
+  "I’ve been hesitant to post any FOTD’s lately because I don’t feel like the makeup I wear on a daily basis is fancy enough. Most of the looks I’ve been wearing are in the “five minute makeup range” these days, but ya know what? I figure I can’t be the only person out there who loves fast, fresh real-life looks. Like, I just got off a video call 15 minutes ago and this was the makeup I was wearing! Hello, real life. So here we go!",
   "",
   listOfObjects[1]
 );
 let postFourTwo: Post = new Post(
   "2",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Post nr 4",
+  "Another makeup item of note: for a quick hit of color on your cheeks, load up your blush brush with bronzer and blush. I just take my blush brush and dip it into both pans and then swirl the mix onto my apples. It’s the fastest way for me to get a good amount of color on my face without having to deal with layering and blending. Here I mixed Laura Mercier Blush in Rose with MAC Mineralize Skinfinish in Give Me Sun.",
   "",
   listOfObjects[1]
 );
 let postFiveTwo: Post = new Post(
   "2",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Post nr 5",
+  "I’m about to jump on my second video meeting of the day! How’s your Tuesday going? Your friendly neighborhood beauty addict,",
   "",
   listOfObjects[1]
 );
 let postSixTwo: Post = new Post(
   "2",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Post nr 6",
+  "Climate change is real, and Tabs the Cat Industries, LLC is doing something about it. It’s a common misconception that Elon Musk’s SpaceX pioneered VTOL (vertical takeoff and landing) rocket technology with the Falcon 9, but it was actually Tabs who came up with the original idea.",
   "",
   listOfObjects[1]
 );
 let postSevenTwo: Post = new Post(
   "2",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Post nr 7",
+  "Happy new year, my friend! Along with all the usual wishes for the new year (good luck, good health and all the good things), I hope 2022 treats you with tenderness.",
   "",
   listOfObjects[1]
 );
 let postEightTwo: Post = new Post(
   "2",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Post nr 8",
+  "On the beauty front, I hope your makeup bag runneth over with pieces that bring smiles to the corners of your eyes. I hope you find a signature scent that encapsulates your soaring spirit. I hope you find a lipstick and blush combo that lights up your sweet face.",
   "",
   listOfObjects[1]
 );
 let postNineTwo: Post = new Post(
   "2",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Post nr 9",
+  "On this last day of 2021, truth be told I’m not feeling the usual sense something ending and something new beginning. In the effort to impart a sense of newness for 2022, today I plan to a few beauty things so I can at least try a little to feel like I’m starting fresh, and yes, of course I have a list!",
   "",
   listOfObjects[1]
 );
 let postTenTwo: Post = new Post(
   "2",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Post nr 10",
+  "I still love playing with makeup, of course, but lately I haven’t been wearing as much. Baking and cooking used to be my hobbies, too, but now those things feel like chores since I’m the one in our house who usually feeds everyone. Side note: I can’t remember what it’s like to have food just show up miraculously for breakfast, lunch and dinner. It must’ve been magical!",
   "",
   listOfObjects[1]
 );
@@ -202,74 +202,74 @@ listOfPost.push(
 //
 // TILL BLOGG 3
 //
-  
+
 let postOneThree: Post = new Post(
   "3",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr 1",
+  "Hej då svarta uniformen från höst och vinter. Under vår och sommar så är det vitt – från topp till tå eller som ett statement-plagg, som är säsongens måste.",
   "",
   listOfObjects[2]
 );
 let postTwoThree: Post = new Post(
   "3",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr 2",
+  "Eftersom vi bor i kalla Svergie så är varma kläder ett måste! Årest måste är absolut 'pufferjacket'. Allt ifrån långa till korta, svarta till röda",
   "",
   listOfObjects[2]
 );
 let postThreeThree: Post = new Post(
   "3",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr 3",
+  "Höga svart boots är något alla kvinnor borde ha i garderoben. Har man tjocka vader är det bara just to bad.",
   "",
   listOfObjects[2]
 );
 let postFourThree: Post = new Post(
   "3",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr 4",
+  "Årest klädkedjor 2021 är: Acne, Arket, H&M, Zara och Weekday ",
   "",
   listOfObjects[2]
 );
 let postFiveThree: Post = new Post(
   "3",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr 5",
+  "Sidenpyjamasen är dock inte ett plagg som man omedelbart förknippar med Coco Chanel, men att hon kunde bära upp denna favorit i basgarderoben, det råder det inga tvivel om. ",
   "",
   listOfObjects[2]
 );
 let postSixThree: Post = new Post(
   "3",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr 6",
+  "Elegant spetsbehå får gärna titta fram under sidenskjortan.",
   "",
   listOfObjects[2]
 );
 let postSevenThree: Post = new Post(
   "3",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr 7",
+  "Modesäsongen 2022 är här, och med den en massa härliga trender.",
   "",
   listOfObjects[2]
 );
 let postEightThree: Post = new Post(
   "3",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr 8",
+  "Till våren är det mittenpartiet av kroppen som står i fokus, då bar mage och midja är en trend många designer anammat. Korta toppar eller endast bh kombinerat till lågt skurna byxor och kjolar är det som gäller för den som vill haka på trenden.  ",
   "",
   listOfObjects[2]
 );
 let postNineThree: Post = new Post(
   "3",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr 9",
+  "Du behöver inte gå i giftastankar för att vara sugen på vita romantiska klänningar i tyll, spets och broderier: även för den som inte planerar att säga ”ja” finns det en uppsjö fina klänningar att välja mellan. För vem har sagt att man bara kan strosa runt i sin vita drömklänning en gång i livet ...",
   "",
   listOfObjects[2]
 );
 let postTenThree: Post = new Post(
   "3",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr 10",
+  "Cut outs har varit på modet en tid, men i vår fullkomligt exploderar trenden, en effekt av att modehusen vill att vi ska visa så mycket hud som möjligt. Det fina med den här trenden är att den kan vara så subtil eller sassy som du vill. Vill du inte visa hud går det till exempel utmärkt att ha ett annat plagg under. ",
   "",
   listOfObjects[2]
 );
@@ -290,74 +290,74 @@ listOfPost.push(
 //
 // TILL BLOGG 4
 //
-  
+
 let postOneFour: Post = new Post(
   "4",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr",
+  "Nu kan man lyssna på julmusik på spotify",
   "",
   listOfObjects[3]
 );
 let postTwoFour: Post = new Post(
   "4",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr",
+  "Miley Cyrus senaste pridekonsert var något av det bästa jag sett",
   "",
   listOfObjects[3]
 );
 let postThreeFour: Post = new Post(
   "4",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr",
+  "En ny artist att hålla öronen på är Frida Green, debuterade 2021 i mello",
   "",
   listOfObjects[3]
 );
 let postFourFour: Post = new Post(
   "4",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr",
+  "Nu räcker det, sluta höja priset spotify!! Vad tycker ni?",
   "",
   listOfObjects[3]
 );
 let postFiveFour: Post = new Post(
   "4",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr",
+  "Hur mår ni, idag var jag på en konsert i Mariakyrkan. Jazz ekade i hela lokalen",
   "",
   listOfObjects[3]
 );
 let postSixFour: Post = new Post(
   "4",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr",
+  "Glöm inte Rösta på din favoritartist i årets rockbjörn!!",
   "",
   listOfObjects[3]
 );
 let postSevenFour: Post = new Post(
   "4",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr",
+  " text musik text musik",
   "",
   listOfObjects[3]
 );
 let postEightFour: Post = new Post(
   "4",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr",
+  "Nej nu orkar jag inte lyssna mer",
   "",
   listOfObjects[3]
 );
 let postNineFour: Post = new Post(
   "4",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr",
+  "WOW vilken skillnad det är på högtalare och högtalare",
   "",
   listOfObjects[3]
 );
 let postTenFour: Post = new Post(
   "4",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr",
+  "Kolla in mina spellistor på spotify",
   "",
   listOfObjects[3]
 );
@@ -378,74 +378,74 @@ listOfPost.push(
 //
 // TILL BLOGG 5
 //
-  
+
 let postOneFive: Post = new Post(
   "5",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr 1",
+  "Tja bloggen, idag har jag varit på kontoret",
   "",
   listOfObjects[4]
 );
 let postTwoFive: Post = new Post(
   "5",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr 2",
+  "Hej alla, idag var jag först på kontoret. Efter det träffade jag Lisa och Magnus. Nu ligger jag i soffan",
   "",
   listOfObjects[4]
 );
 let postThreeFive: Post = new Post(
   "5",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr 3",
+  "WOW, nytt år. Hur var ert nyår? jag var på megafest och åt buffe. gott",
   "",
   listOfObjects[4]
 );
 let postFourFive: Post = new Post(
   "5",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr 4",
+  "Jag kommer ta en paus ifrån bloggen, mycket att göra privat",
   "",
   listOfObjects[4]
 );
 let postFiveFive: Post = new Post(
   "5",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr 5",
+  "Idag var jag på mitt först PT pass. Känner mig så svag haha",
   "",
   listOfObjects[4]
 );
 let postSixFive: Post = new Post(
   "5",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr 6",
+  "Hej bloggen, idag tog jag ledigt för att njuta av solen och äta lunch på subway. Bästa dagen",
   "",
   listOfObjects[4]
 );
 let postSevenFive: Post = new Post(
   "5",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr 7",
+  "Hej allihopa, nu är sommaren snart slut och man börjar jobba igen.",
   "",
   listOfObjects[4]
 );
 let postEightFive: Post = new Post(
   "5",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr 8",
+  "Vad är era bästa snackstips? jag lever ju egentligen för lösgodis.",
   "",
   listOfObjects[4]
 );
 let postNineFive: Post = new Post(
   "5",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr 9 ",
+  "Idag har jag bara legat i soffan, så inget att uppdatera, hörs",
   "",
   listOfObjects[4]
 );
 let postTenFive: Post = new Post(
   "5",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr 10",
+  "Tjatja, idag har jag storstädat lägenheten och även köpt en ny TV!! så ni vet vart helgen kommer spenderas, vad ska ni göra?",
   "",
   listOfObjects[4]
 );
@@ -466,74 +466,74 @@ listOfPost.push(
 //
 // TILL BLOGG 6
 //
-  
+
 let postOneSix: Post = new Post(
   "6",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr",
+  "Idag ska vi träna biceps, kört hårt",
   "",
   listOfObjects[5]
 );
 let postTwoSix: Post = new Post(
   "6",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr",
+  "Hur många squats kan ni göra? idag kör vi på 100 i rad. körkörkör",
   "",
   listOfObjects[5]
 );
 let postThreeSix: Post = new Post(
   "6",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr",
+  "Godmorgon, nu kör vi löprunda 8km.",
   "",
   listOfObjects[5]
 );
 let postFourSix: Post = new Post(
   "6",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr",
+  "Idag vilar jag, ni då? ska även äta gröt med casein, blir så gott",
   "",
   listOfObjects[5]
 );
 let postFiveSix: Post = new Post(
   "6",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr",
+  "Nu blir det helkropp på gymmet i 2h, hänger ni med mig?",
   "",
   listOfObjects[5]
 );
 let postSixSix: Post = new Post(
   "6",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr",
+  "Jag tränar på SATC, vart tränar ni?",
   "",
   listOfObjects[5]
 );
 let postSevenSix: Post = new Post(
   "6",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr",
+  "Idag har jag haft en cheatday, ätit 8000 kalorier, bra för musklerna",
   "",
   listOfObjects[5]
 );
 let postEightSix: Post = new Post(
   "6",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr",
+  "Hej alla, idag körde jag både löprunda och benpass på gymmet.",
   "",
   listOfObjects[5]
 );
 let postNineSix: Post = new Post(
   "6",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr",
+  "Förkyld, så blir inget idag",
   "",
   listOfObjects[5]
 );
 let postTenSix: Post = new Post(
   "6",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr",
+  "Hejhej alla, idag blir det helkropp på gymmet. Glöm inte att dricka pwo för energin...",
   "",
   listOfObjects[5]
 );
@@ -554,74 +554,74 @@ listOfPost.push(
 //
 // TILL BLOGG 7
 //
-  
+
 let postOneSeven: Post = new Post(
   "7",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr 1",
+  "Idag såg jag Don't Look Up 8/10",
   "",
   listOfObjects[6]
 );
 let postTwoSeven: Post = new Post(
   "7",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr 2",
+  "Disney Enchanot får 10/10",
   "",
   listOfObjects[6]
 );
 let postThreeSeven: Post = new Post(
   "7",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr 3",
+  "Ikväll såg vi The Hustle - en klar 10:a",
   "",
   listOfObjects[6]
 );
 let postFourSeven: Post = new Post(
   "7",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr 4",
+  "Thor får 9/10",
   "",
   listOfObjects[6]
 );
 let postFiveSeven: Post = new Post(
   "7",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr 5",
+  "Spiderman får 100/10, SE DEN NU!!",
   "",
   listOfObjects[6]
 );
 let postSixSeven: Post = new Post(
   "7",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr 6",
+  "Venom  får 7/10",
   "",
   listOfObjects[6]
 );
 let postSevenSeven: Post = new Post(
   "7",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr 7",
+  "Idag gick tv:n sönder. Så måste vänta tills imorgon när vi ska köpa ny",
   "",
   listOfObjects[6]
 );
 let postEightSeven: Post = new Post(
   "7",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr 8",
+  "Jag vet inte med er, men alla polisskolan är 5/10, men se dem ändå",
   "",
   listOfObjects[6]
 );
 let postNineSeven: Post = new Post(
   "7",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr 9",
+  "Såg Red Notice, inte alls vad jag trodde men en stark 7/10",
   "",
   listOfObjects[6]
 );
 let postTenSeven: Post = new Post(
   "7",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr 10",
+  "vad ska jag säga, squid game -1/10, spring",
   "",
   listOfObjects[6]
 );
@@ -642,74 +642,74 @@ listOfPost.push(
 //
 // TILL BLOGG 8
 //
-  
+
 let postOneEight: Post = new Post(
   "8",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr 1",
+  "Det börja bra nästan intressant",
   "",
   listOfObjects[7]
 );
 let postTwoEight: Post = new Post(
   "8",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr 2",
+  "Jaja, men kanske lite väl bekant",
   "",
   listOfObjects[7]
 );
 let postThreeEight: Post = new Post(
   "8",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr 3",
+  "Vi bygger upp till bryggan min vän",
   "",
   listOfObjects[7]
 );
 let postFourEight: Post = new Post(
   "8",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr 4",
+  "Men den kommer inte riktigt än",
   "",
   listOfObjects[7]
 );
 let postFiveEight: Post = new Post(
   "8",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr 5",
+  "För vi har en halv vers kvar att köra",
   "",
   listOfObjects[7]
 );
 let postSixEight: Post = new Post(
   "8",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr 6",
+  "En repetion, som man brukar göra",
   "",
   listOfObjects[7]
 );
 let postSevenEight: Post = new Post(
   "8",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr 7",
+  "Vi bygger upp till bruggan igen och här kommer den äntligen",
   "",
   listOfObjects[7]
 );
 let postEightEight: Post = new Post(
   "8",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr 8",
+  "Spänningen stiger inför låtens poäng",
   "",
   listOfObjects[7]
 );
 let postNineEight: Post = new Post(
   "8",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr 9",
+  "En riktigt fläskig refräng",
   "",
   listOfObjects[7]
 );
 let postTenEight: Post = new Post(
   "8",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr 10",
+  "Och det är kärlek och det är vindar, det är ögon och dem tindrar",
   "",
   listOfObjects[7]
 );
@@ -730,74 +730,74 @@ listOfPost.push(
 //
 // TILL BLOGG 9
 //
-  
+
 let postOneNine: Post = new Post(
   "9",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr 1",
+  "Baddräkt från H&M, solglasögon från Fendi, pärlhalsband från Sophie by Sophie, snäckarmband från Pilgrim. ",
   "",
   listOfObjects[8]
 );
 let postTwoNine: Post = new Post(
   "9",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr 2",
+  "Bikini från Ia Bon, solglasögon från Fendi, snäckhalsband från Valerie, litet halsband från Sophie by Sophie.",
   "",
   listOfObjects[8]
 );
 let postThreeNine: Post = new Post(
   "9",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr 3",
+  "Klänning från Kappahl, solglasögon från Fendi, väska från Sally Voltaire och systrar. ",
   "",
   listOfObjects[8]
 );
 let postFourNine: Post = new Post(
   "9",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr 4",
+  "Tröja från Arket, byxor från H&M, skor från Prada och väska från Gucci",
   "",
   listOfObjects[8]
 );
 let postFiveNine: Post = new Post(
   "9",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr 5",
+  "Randig klänning från DVF, skor från Flattered. ",
   "",
   listOfObjects[8]
 );
 let postSixNine: Post = new Post(
   "9",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr 6",
+  "Klänning från Rodebjer, solglasögon från Accrue.",
   "",
   listOfObjects[8]
 );
 let postSevenNine: Post = new Post(
   "9",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr 7",
+  "Jeans från BikBok, t-shirt från H&M, väska från Little Liffner, skor från Flattered, örhängen från Syster P, solglasögon från Musch, snäckhalsband från Valerie, pärlhalsband och halsband med rosa topas från Sophie by Sophie. ",
   "",
   listOfObjects[8]
 );
 let postEightNine: Post = new Post(
   "9",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr 8",
+  "Kavaj från Massimo Dutti, jeans från Carin Wester, solglasögon från Chimi Eyewear, väska från Staud, armband från Charlotte Bonde, pumps från Flattered. ",
   "",
   listOfObjects[8]
 );
 let postNineNine: Post = new Post(
   "9",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr 9",
+  "Kjol från Rodebjer, väska från ATP Atelier, skor från H&M.",
   "",
   listOfObjects[8]
 );
 let postTenNine: Post = new Post(
   "9",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr 10",
+  "Kavaj från Mango, topp från H&M, kjol från Beck Söndergaard, väska från ATP Atelier, solglasögon från Accrue.",
   "",
   listOfObjects[8]
 );
@@ -818,74 +818,74 @@ listOfPost.push(
 //
 // TILL BLOGG 10
 //
-  
+
 let postOneTen: Post = new Post(
   "10",
-  "post one",
-  "The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again.",
+  "Inlägg nr 1",
+  "Mina favoriter från Depends vårsläpp!! Depend har släppt sina vårlack. Depend är alltså lika redo för våren som jag är.  Jag VET att våren inte...",
   "",
   listOfObjects[9]
 );
 let postTwoTen: Post = new Post(
   "10",
-  "post two",
-  "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge.",
+  "Inlägg nr 2",
+  "Saltvattenspray – jag har lärt mig att använda det! Tänk att man är en sån beautynörd och fortfarande kan lära sig så basala saker som hur man använder saltvattenspray...",
   "",
   listOfObjects[9]
 );
 let postThreeTen: Post = new Post(
   "10",
-  "post three",
-  "The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.",
+  "Inlägg nr 3",
+  "Skadat hår?! Här är 3 bra värmeskydd som hjälper dig! Så många av oss går runt med skadat hår för hår skadas när man färgar, bleker och stylar det. De...",
   "",
   listOfObjects[9]
 );
 let postFourTen: Post = new Post(
   "10",
-  "post four",
-  "I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.",
+  "Inlägg nr 4",
+  "Hårfönen som underlättat min volymföning! Att föna håret med rundborste för att bygga upp volym är något som jag verkligen älskar. Jag har haft en...",
   "",
   listOfObjects[9]
 );
 let postFiveTen: Post = new Post(
   "10",
-  "post five",
-  "Should he write it down? That was the question running through his mind. He couldn't believe what had just happened and he knew nobody else would believe him as well. Even if he documented what had happened by writing it down, he still didn't believe anyone would still believe it. So the question remained. Was it be worth it to actually write it down?",
+  "Inlägg nr 5",
+  "SE HIT! Om du vill ha en grön sminkning på jul! Jag kommer inte köra en grön sminkning på jul för jag har bestämt mig för en cerise klänning i år....",
   "",
   listOfObjects[9]
 );
 let postSixTen: Post = new Post(
   "10",
-  "post six",
-  "There was little doubt that the bridge was unsafe. All one had to do was look at it to know that with certainty. Yet Bob didn't see another option. He may have been able to work one out if he had a bit of time to think things through, but time was something he didn't have. A choice needed to be made, and it needed to be made quickly.",
+  "Inlägg nr 6",
+  "Häng eukalyptus i duschen, det är underbart! Jag har testat att ha eukalyptuskvistar hängandes i duschen och jag testade först och främst för att de är otroligt...",
   "",
   listOfObjects[9]
 );
 let postSevenTen: Post = new Post(
   "10",
-  "post seven",
-  "The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.",
+  "Inlägg nr 7",
+  "Första hjälpen mot frissigt hår! Fissets säsong är här. Torr luft, kall luft och håret blir till fnöske. Mitt hår tappar glans och blir bara...",
   "",
   listOfObjects[9]
 );
 let postEightTen: Post = new Post(
   "10",
-  "post eight",
-  "Bryan had made peace with himself and felt comfortable with the choices he made. This had made all the difference in the world. Being alone no longer bothered him and this was essential since there was a good chance he might spend the rest of his life alone in a cell.",
+  "Inlägg nr 8",
+  "Jag och Tati Westbrook gillar inte samma, igen! För något år sen så testade jag en foundation som inte bara Tati Westbrook hade hyllat utan även många andra...",
   "",
   listOfObjects[9]
 );
 let postNineTen: Post = new Post(
   "10",
-  "post nine",
-  "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
+  "Inlägg nr 9",
+  "Krämen som doftar en nyskivad gurka! Jag har testat en kräm i några veckor som jag har mixade åsikter om. I namnet så finns ordet smoothie...",
   "",
   listOfObjects[9]
 );
 let postTenTen: Post = new Post(
   "10",
-  "post ten",
-  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball.",
+  "Inlägg nr 10",
+  "Äntligen dags för en sminkning! Känns som att de va en evighet sen jag la upp en sminkning. Det har varit en ganska osminkad höst...",
   "",
   listOfObjects[9]
 );
@@ -902,772 +902,3 @@ listOfPost.push(
   postNineTen,
   postTenTen
 );
-// let twoPostOne: Post = new Post(
-//   "2",
-//   "post one",
-//   "Detta är ett inlägg i post two och det första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let twoPostTwo: Post = new Post(
-//   "2",
-//   "post two",
-//   "Detta är ett inlägg i post two och det andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let twoPostThree: Post = new Post(
-//   "2",
-//   "post three",
-//   "Detta är ett inlägg i post two och det tredje inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let twoPostFour: Post = new Post(
-//   "2",
-//   "post four",
-//   "Detta är ett inlägg i post two och det fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let twoPostFive: Post = new Post(
-//   "2",
-//   "post five",
-//   "Detta är ett inlägg i post two och det femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let twoPostSix: Post = new Post(
-//   "2",
-//   "post six",
-//   "Detta är ett inlägg i post two och det sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let twoPostSeven: Post = new Post(
-//   "2",
-//   "post seven",
-//   "Detta är ett inlägg i post two och det sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let twoPostEight: Post = new Post(
-//   "2",
-//   "post eight",
-//   "Detta är ett inlägg i post two och det åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let twoPostNine: Post = new Post(
-//   "2",
-//   "post nine",
-//   "Detta är ett inlägg i post two och det nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let twoPostTen: Post = new Post(
-//   "2",
-//   "post ten",
-//   "Detta är ett inlägg i post two och det tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostTwo: Post[] = [];
-// listOfPostTwo.push(
-//   twoPostOne,
-//   twoPostTwo,
-//   twoPostThree,
-//   twoPostFour,
-//   twoPostFive,
-//   twoPostSix,
-//   twoPostSeven,
-//   twoPostEight,
-//   twoPostNine,
-//   twoPostTen
-// );
-
-// let threePostOne: Post = new Post(
-//   "3",
-//   "post one",
-//   "Detta är ett inlägg i post three och det första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let threePostTwo: Post = new Post(
-//   "3",
-//   "post two",
-//   "Detta är ett inlägg i post three och det andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let threePostThree: Post = new Post(
-//   "3",
-//   "post three",
-//   "Detta är ett inlägg i post three och det tredje inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let threePostFour: Post = new Post(
-//   "3",
-//   "post four",
-//   "Detta är ett inlägg i post three och är fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let threePostFive: Post = new Post(
-//   "3",
-//   "post five",
-//   "Detta är ett inlägg i post three och är femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let threePostSix: Post = new Post(
-//   "3",
-//   "post six",
-//   "Detta är ett inlägg i post three och är sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let threePostSeven: Post = new Post(
-//   "3",
-//   "post seven",
-//   "Detta är ett inlägg i post three och är sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let threePostEight: Post = new Post(
-//   "3",
-//   "post eight",
-//   "Detta är ett inlägg i post three och är åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let threePostNine: Post = new Post(
-//   "3",
-//   "post nine",
-//   "Detta är ett inlägg i post three och är nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let threePostTen: Post = new Post(
-//   "3",
-//   "post ten",
-//   "Detta är ett inlägg i post three och är tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostThree: Post[] = [];
-// listOfPostThree.push(
-//   threePostOne,
-//   threePostTwo,
-//   threePostThree,
-//   threePostFour,
-//   threePostFive,
-//   threePostSix,
-//   threePostSeven,
-//   threePostEight,
-//   threePostNine,
-//   threePostTen
-// );
-
-// let fourPostOne: Post = new Post(
-//   "4",
-//   "post one",
-//   "Detta är ett inlägg i post four och är första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let fourPostTwo: Post = new Post(
-//   "4",
-//   "post two",
-//   "Detta är ett inlägg i post four och är andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let fourPostThree: Post = new Post(
-//   "4",
-//   "post three",
-//   "Detta är ett inlägg i post four och är tredje inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let fourPostFour: Post = new Post(
-//   "4",
-//   "post four",
-//   "Detta är ett inlägg i post four och är fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let fourPostFive: Post = new Post(
-//   "4",
-//   "post five",
-//   "Detta är ett inlägg i post four och är femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let fourPostSix: Post = new Post(
-//   "4",
-//   "post six",
-//   "Detta är ett inlägg i post four och är sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let fourPostSeven: Post = new Post(
-//   "4",
-//   "post seven",
-//   "Detta är ett inlägg i post four och är sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let fourPostEight: Post = new Post(
-//   "4",
-//   "post eight",
-//   "Detta är ett inlägg i post four och är åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let fourPostNine: Post = new Post(
-//   "4",
-//   "post nine",
-//   "Detta är ett inlägg i post four och är nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let fourPostTen: Post = new Post(
-//   "4",
-//   "post ten",
-//   "Detta är ett inlägg i post four och är tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostFour: Post[] = [];
-// listOfPostFour.push(
-//   fourPostOne,
-//   fourPostTwo,
-//   fourPostThree,
-//   fourPostFour,
-//   fourPostFive,
-//   fourPostSix,
-//   fourPostSeven,
-//   fourPostEight,
-//   fourPostNine,
-//   fourPostTen
-// );
-
-// let fivePostOne: Post = new Post(
-//   "5",
-//   "post one",
-//   "Detta är ett inlägg i post five och är första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let fivePostTwo: Post = new Post(
-//   "5",
-//   "post two",
-//   "Detta är ett inlägg i post five och är andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let fivePostThree: Post = new Post(
-//   "5",
-//   "post three",
-//   "Detta är ett inlägg i post five och är tredje inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let fivePostFour: Post = new Post(
-//   "5",
-//   "post four",
-//   "Detta är ett inlägg i post five och är fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let fivePostFive: Post = new Post(
-//   "5",
-//   "post five",
-//   "Detta är ett inlägg i post five och är femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let fivePostSix: Post = new Post(
-//   "5",
-//   "post six",
-//   "Detta är ett inlägg i post five och är sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let fivePostSeven: Post = new Post(
-//   "5",
-//   "post seven",
-//   "Detta är ett inlägg i post five och är sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let fivePostEight: Post = new Post(
-//   "5",
-//   "post eight",
-//   "Detta är ett inlägg i post five och är åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let fivePostNine: Post = new Post(
-//   "5",
-//   "post nine",
-//   "Detta är ett inlägg i post five och är nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let fivePostTen: Post = new Post(
-//   "5",
-//   "post ten",
-//   "Detta är ett inlägg i post five och är tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostFive: Post[] = [];
-// listOfPostFive.push(
-//   fivePostOne,
-//   fivePostTwo,
-//   fivePostThree,
-//   fivePostFour,
-//   fivePostFive,
-//   fivePostSix,
-//   fivePostSeven,
-//   fivePostEight,
-//   fivePostNine,
-//   fivePostTen
-// );
-
-// let SixPostOne: Post = new Post(
-//   "6",
-//   "post one",
-//   "Detta är ett inlägg i post six och är första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let SixPostTwo: Post = new Post(
-//   "6",
-//   "post two",
-//   "Detta är ett inlägg i post six och är andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let SixPostThree: Post = new Post(
-//   "6",
-//   "post three",
-//   "Detta är ett inlägg i post six och är tredje inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let SixPostFour: Post = new Post(
-//   "6",
-//   "post four",
-//   "Detta är ett inlägg i post six och är fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let SixPostFive: Post = new Post(
-//   "6",
-//   "post five",
-//   "Detta är ett inlägg i post six och är femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let SixPostSix: Post = new Post(
-//   "6",
-//   "post six",
-//   "Detta är ett inlägg i post six och är sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let SixPostSeven: Post = new Post(
-//   "6",
-//   "post seven",
-//   "Detta är ett inlägg i post six och är sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let SixPostEight: Post = new Post(
-//   "6",
-//   "post eight",
-//   "Detta är ett inlägg i post six och är åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let SixPostNine: Post = new Post(
-//   "6",
-//   "post nine",
-//   "Detta är ett inlägg i post six och är nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let SixPostTen: Post = new Post(
-//   "6",
-//   "post ten",
-//   "Detta är ett inlägg i post six och är tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostSix: Post[] = [];
-// listOfPostSix.push(
-//   SixPostOne,
-//   SixPostTwo,
-//   SixPostThree,
-//   SixPostFour,
-//   SixPostFive,
-//   SixPostSix,
-//   SixPostSeven,
-//   SixPostEight,
-//   SixPostNine,
-//   SixPostTen
-// );
-
-// let sevenPostOne: Post = new Post(
-//   "7",
-//   "post one",
-//   "Detta är ett inlägg i post seven och är första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let sevenPostTwo: Post = new Post(
-//   "7",
-//   "post two",
-//   "Detta är ett inlägg i post seven och är andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let sevenPostThree: Post = new Post(
-//   "7",
-//   "post three",
-//   "Detta är ett inlägg i post seven och är tredje inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let sevenPostFour: Post = new Post(
-//   "7",
-//   "post four",
-//   "Detta är ett inlägg i post seven och är fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let sevenPostFive: Post = new Post(
-//   "7",
-//   "post five",
-//   "Detta är ett inlägg i post seven och är femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let sevenPostSix: Post = new Post(
-//   "7",
-//   "post six",
-//   "Detta är ett inlägg i post seven och är sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let sevenPostSeven: Post = new Post(
-//   "7",
-//   "post seven",
-//   "Detta är ett inlägg i post seven och är sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let sevenPostEight: Post = new Post(
-//   "7",
-//   "post eight",
-//   "Detta är ett inlägg i post seven och är åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let sevenPostNine: Post = new Post(
-//   "7",
-//   "post nine",
-//   "Detta är ett inlägg i post seven och är nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let sevenPostTen: Post = new Post(
-//   "7",
-//   "post ten",
-//   "Detta är ett inlägg i post seven och är tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostSeven: Post[] = [];
-// listOfPostSeven.push(
-//   sevenPostOne,
-//   sevenPostTwo,
-//   sevenPostThree,
-//   sevenPostFour,
-//   sevenPostFive,
-//   sevenPostSix,
-//   sevenPostSeven,
-//   sevenPostEight,
-//   sevenPostNine,
-//   sevenPostTen
-// );
-
-// let eightPostOne: Post = new Post(
-//   "8",
-//   "post one",
-//   "Detta är ett inlägg i post eight och är första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let eightPostTwo: Post = new Post(
-//   "8",
-//   "post two",
-//   "Detta är ett inlägg i post eight och är andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let eightPostThree: Post = new Post(
-//   "8",
-//   "post three",
-//   "Detta är ett inlägg i post eight och är tredej inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let eightPostFour: Post = new Post(
-//   "8",
-//   "post four",
-//   "Detta är ett inlägg i post eight och är fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let eightPostFive: Post = new Post(
-//   "8",
-//   "post five",
-//   "Detta är ett inlägg i post eight och är femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let eightPostSix: Post = new Post(
-//   "8",
-//   "post six",
-//   "Detta är ett inlägg i post eight och är sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let eightPostSeven: Post = new Post(
-//   "8",
-//   "post seven",
-//   "Detta är ett inlägg i post eight och är sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let eightPostEight: Post = new Post(
-//   "8",
-//   "post eight",
-//   "Detta är ett inlägg i post eight och är åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let eightPostNine: Post = new Post(
-//   "8",
-//   "post nine",
-//   "Detta är ett inlägg i post eight och är nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let eightPostTen: Post = new Post(
-//   "8",
-//   "post ten",
-//   "Detta är ett inlägg i post eight och är tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostEight: Post[] = [];
-// listOfPostEight.push(
-//   eightPostOne,
-//   eightPostTwo,
-//   eightPostThree,
-//   eightPostFour,
-//   eightPostFive,
-//   eightPostSix,
-//   eightPostSeven,
-//   eightPostEight,
-//   eightPostNine,
-//   eightPostTen
-// );
-
-// let ninePostOne: Post = new Post(
-//   "9",
-//   "post one",
-//   "Detta är ett inlägg i post nine och är första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let ninePostTwo: Post = new Post(
-//   "9",
-//   "post two",
-//   "Detta är ett inlägg i post nine och är andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let ninePostThree: Post = new Post(
-//   "9",
-//   "post three",
-//   "Detta är ett inlägg i post nine och är tredje inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let ninePostFour: Post = new Post(
-//   "9",
-//   "post four",
-//   "Detta är ett inlägg i post nine och är fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let ninePostFive: Post = new Post(
-//   "9",
-//   "post five",
-//   "Detta är ett inlägg i post nine och är femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let ninePostSix: Post = new Post(
-//   "9",
-//   "post six",
-//   "Detta är ett inlägg i post nine och är sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let ninePostSeven: Post = new Post(
-//   "9",
-//   "post seven",
-//   "Detta är ett inlägg i post nine och är sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let ninePostEight: Post = new Post(
-//   "9",
-//   "post eight",
-//   "Detta är ett inlägg i post nine och är åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let ninePostNine: Post = new Post(
-//   "9",
-//   "post nine",
-//   "Detta är ett inlägg i post nine och är nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let ninePostTen: Post = new Post(
-//   "9",
-//   "post ten",
-//   "Detta är ett inlägg i post nine och är tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostNine: Post[] = [];
-// listOfPostNine.push(
-//   ninePostOne,
-//   ninePostTwo,
-//   ninePostThree,
-//   ninePostFour,
-//   ninePostFive,
-//   ninePostSix,
-//   ninePostSeven,
-//   ninePostEight,
-//   ninePostNine,
-//   ninePostTen
-// );
-
-// let tenPostOne: Post = new Post(
-//   "10",
-//   "post one",
-//   "Detta är ett inlägg i post ten och är första inlägget",
-//   "",
-//   listOfObjects[0]
-// );
-// let tenPostTwo: Post = new Post(
-//   "10",
-//   "post two",
-//   "Detta är ett inlägg i post ten och är andra inlägget",
-//   "",
-//   listOfObjects[1]
-// );
-// let tenPostThree: Post = new Post(
-//   "10",
-//   "post three",
-//   "Detta är ett inlägg i post ten och är trejde inlägget",
-//   "",
-//   listOfObjects[2]
-// );
-// let tenPostFour: Post = new Post(
-//   "10",
-//   "post four",
-//   "Detta är ett inlägg i post ten och är fjärde inlägget",
-//   "",
-//   listOfObjects[3]
-// );
-// let tenPostFive: Post = new Post(
-//   "10",
-//   "post five",
-//   "Detta är ett inlägg i post ten och är femte inlägget",
-//   "",
-//   listOfObjects[4]
-// );
-// let tenPostSix: Post = new Post(
-//   "10",
-//   "post six",
-//   "Detta är ett inlägg i post ten och är sjätte inlägget",
-//   "",
-//   listOfObjects[5]
-// );
-// let tenPostSeven: Post = new Post(
-//   "10",
-//   "post seven",
-//   "Detta är ett inlägg i post ten och är sjunde inlägget",
-//   "",
-//   listOfObjects[6]
-// );
-// let tenPostEight: Post = new Post(
-//   "10",
-//   "post eight",
-//   "Detta är ett inlägg i post ten och är åttonde inlägget",
-//   "",
-//   listOfObjects[7]
-// );
-// let tenPostNine: Post = new Post(
-//   "10",
-//   "post nine",
-//   "Detta är ett inlägg i post ten och är nionde inlägget",
-//   "",
-//   listOfObjects[8]
-// );
-// let tenPostTen: Post = new Post(
-//   "10",
-//   "post ten",
-//   "Detta är ett inlägg i post ten och är tionde inlägget",
-//   "",
-//   listOfObjects[9]
-// );
-// export let listOfPostTen: Post[] = [];
-// listOfPostTen.push(
-//   tenPostOne,
-//   tenPostTwo,
-//   tenPostThree,
-//   tenPostFour,
-//   tenPostFive,
-//   tenPostSix,
-//   tenPostSeven,
-//   tenPostEight,
-//   tenPostNine,
-//   tenPostTen
-// );
-
-// export let listOfAllPosts = [];
-// listOfAllPosts.push(
-//   listOfPost,
-//   listOfPostTwo,
-//   listOfPostThree, 
-//   listOfPostFour, 
-//   listOfPostFive, 
-//   listOfPostSix,
-//   listOfPostSeven,
-//   listOfPostEight,
-//   listOfPostNine,
-//   listOfPostTen
-//   );
