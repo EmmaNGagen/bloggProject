@@ -1,4 +1,5 @@
 import { theBarNav } from "./header";
+import { postImgList } from "./modules/postImgModule";
 import { listOfPost } from "./modules/postModule";
 
 window.onload = function () {
@@ -14,22 +15,24 @@ let heroContainer: HTMLDivElement = document.getElementById(
 ) as HTMLDivElement;
 
 function getBlogbyId (){
-    for (let i = 0; i < listOfPost.length; i++) {
-        if(bloggId === listOfPost[i].id){
+    for (let i = 0; i < postImgList.length; i++) {
+        if(bloggId === postImgList[i].id){
+
             let postImgContainer: HTMLDivElement = document.createElement("div");
             postImgContainer.className = "post-img-container";
             heroContainer.appendChild(postImgContainer);
 
-            let blogImgContainer: HTMLDivElement = document.createElement("div");
-            blogImgContainer.className = "blog-img-container";
-            heroContainer.appendChild(blogImgContainer);
-            let blogImg: HTMLDivElement = document.createElement("div");
-            blogImg.className = "blog-img";
-            blogImg.setAttribute(
-                "style",
-                `background-image:url(${listOfPost[i].blogId.img})`
-            );
-            blogImgContainer.appendChild(blogImg);
+            let postImgHeader: HTMLDivElement = document.createElement("div");
+            postImgHeader.className = "post-img-header";
+            postImgHeader.setAttribute("style", `background-image:url(${postImgList[i].img})`);
+            postImgContainer.appendChild(postImgHeader);
+
+            console.log("Du ser bild nr: " + postImgList[i].id);
+            console.log("Bilden: " + postImgList[i].img);
+        }
+    }
+    for (let i = 0; i < listOfPost.length; i++) {
+        if(bloggId === listOfPost[i].id){
 
             let userContainer: HTMLDivElement = document.createElement("div");
             userContainer.className = "user-container";
@@ -66,6 +69,5 @@ function getBlogbyId (){
             console.log("blogg nr: " + listOfPost[i].id);
             console.log("som tillhör: " + listOfPost[i].blogId.user);
         }
-        
     }
 }
