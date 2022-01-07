@@ -9,6 +9,22 @@ import { listOfPostEight } from "../modules/postModule";
 import { listOfPostNine } from "../modules/postModule";
 import { listOfPostTen } from "../modules/postModule";
 import { Blog, listOfObjects } from "../modules/bloggModule";
+// post one på blogg 1 post two på blogb 2 osv
+window.onload = function () {
+  let url: string = window.location.search;
+  let urlParams: URLSearchParams = new URLSearchParams(url);
+  for (let value of urlParams.values()) {
+    let idfromURL: string = value;
+    for (let i: number = 0; i < listOfObjects.length; i++) {
+      let idFromObject: string = listOfObjects[i].id.toString();
+
+      if (idFromObject === idfromURL) {
+        displayPost(listOfObjects[i]);
+      }
+    }
+  }
+};
+//Alla inlägg till blogg 1 på alla bloggar.
 export function displayPost() {
   console.log(listOfPost);
   const mainSection: HTMLDivElement = document.getElementById(
