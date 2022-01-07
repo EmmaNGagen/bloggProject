@@ -1,11 +1,9 @@
 import { theBarNav } from "./header";
-import { Blog, listOfObjects } from "./modules/bloggModule";
 import { listOfPost } from "./modules/postModule";
 
 window.onload = function () {
   theBarNav();
   getBlogbyId();
-  
 };
 
 let urlParams = new URLSearchParams(window.location.search);
@@ -16,14 +14,7 @@ let heroContainer: HTMLDivElement = document.getElementById(
 ) as HTMLDivElement;
 
 function getBlogbyId (){
-    console.log(listOfPost);
     for (let i = 0; i < listOfPost.length; i++) {
-        // let innerLength = listOfPosts[i].length;
-        
-        // for (let j = 0; j < innerLength; j++) {
-        //     console.log();
-            
-        // }
         if(bloggId === listOfPost[i].id){
             let postImgContainer: HTMLDivElement = document.createElement("div");
             postImgContainer.className = "post-img-container";
@@ -71,14 +62,6 @@ function getBlogbyId (){
             postText.className = "post-text";
             postText.innerHTML = listOfPost[i].text;
             textContainer.appendChild(postText);
-
-    //     let textContainer: HTMLDivElement = document.createElement("div");
-    //     textContainer.className = "text-container";
-    //     heroContainer.appendChild(textContainer);
-    //     let postText: HTMLParagraphElement = document.createElement("p");
-    //     postText.className = "post-text";
-    //     postText.innerHTML = listOfPost[i].text;
-    //     textContainer.appendChild(postText);
 
             console.log("blogg nr: " + listOfPost[i].id);
             console.log("som tillhör: " + listOfPost[i].blogId.user);
