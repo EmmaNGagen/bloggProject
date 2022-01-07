@@ -154,8 +154,8 @@
   .nav-link {
     transition: 0.7s ease;
   }
-  .nav-link:hover {
-    color: rgb(124, 126, 128);
+  a.nav-link:hover {
+    color: rgb(124, 126, 128) !important;
   }
   .secondary-wreapper {
     padding-right: 70px;
