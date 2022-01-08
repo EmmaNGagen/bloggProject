@@ -195,15 +195,40 @@ body {
 
 #hero-container {
   height: 100vh;
+  padding-top: 65px;
   .post-img-container {
     width: 100%;
     .post-img-header {
       width: 80%;
-      height: 35vh;
+      height: 30vh;
       margin: 0 auto;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+    }
+  }
+  .prop-container {
+    margin: 20px;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    .text-container {
+      p {
+        padding: 20px;
+      }
+    }
+    .title-container {
+      .post-title {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+    .date-container {
+      .post-date {
+        font-size: 12px;
+        padding: 20px;
+      }
     }
   }
 }
