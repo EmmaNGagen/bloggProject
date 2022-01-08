@@ -38,9 +38,12 @@
 
 //Desktop screen
 @media only screen and (min-width: 915px) {
-  .Onefooter {
-    background-color: rgb(0, 0, 0);
+  footer {
+    .Onefooter {
+      background-color: rgb(0, 0, 0);
+    }
   }
+
   .sectionOne {
     padding-top: 20px;
   }
