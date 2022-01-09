@@ -293,70 +293,70 @@ listOfPost.push(
 
 let postOneFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 1",
   "Nu kan man lyssna på julmusik på spotify",
   "1 Februari",
   listOfObjects[3]
 );
 let postTwoFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 2",
   "Miley Cyrus senaste pridekonsert var något av det bästa jag sett",
   "2 Februari",
   listOfObjects[3]
 );
 let postThreeFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 3",
   "En ny artist att hålla öronen på är Frida Green, debuterade 2021 i mello",
   "3 Februari",
   listOfObjects[3]
 );
 let postFourFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 4",
   "Nu räcker det, sluta höja priset spotify!! Vad tycker ni?",
   "4 Februari",
   listOfObjects[3]
 );
 let postFiveFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 5",
   "Hur mår ni, idag var jag på en konsert i Mariakyrkan. Jazz ekade i hela lokalen",
   "5 Februari",
   listOfObjects[3]
 );
 let postSixFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 6",
   "Glöm inte Rösta på din favoritartist i årets rockbjörn!!",
   "6 Februari",
   listOfObjects[3]
 );
 let postSevenFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 7",
   " text musik text musik",
   "7 Februari",
   listOfObjects[3]
 );
 let postEightFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 8",
   "Nej nu orkar jag inte lyssna mer",
   "8 Februari",
   listOfObjects[3]
 );
 let postNineFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 9",
   "WOW vilken skillnad det är på högtalare och högtalare",
   "9 Februari",
   listOfObjects[3]
 );
 let postTenFour: Post = new Post(
   "4",
-  "Inlägg nr",
+  "Inlägg nr 10",
   "Kolla in mina spellistor på spotify",
   "10 Februari",
   listOfObjects[3]
