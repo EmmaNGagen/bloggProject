@@ -469,70 +469,70 @@ listOfPost.push(
 
 let postOneSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr ett",
   "Idag ska vi träna biceps, kört hårt",
   "1 April",
   listOfObjects[5]
 );
 let postTwoSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr två",
   "Hur många squats kan ni göra? idag kör vi på 100 i rad. körkörkör",
   "2 April",
   listOfObjects[5]
 );
 let postThreeSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr tre",
   "Godmorgon, nu kör vi löprunda 8km.",
   "3 April",
   listOfObjects[5]
 );
 let postFourSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr fyra",
   "Idag vilar jag, ni då? ska även äta gröt med casein, blir så gott",
   "4 April",
   listOfObjects[5]
 );
 let postFiveSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr fem",
   "Nu blir det helkropp på gymmet i 2h, hänger ni med mig?",
   "5 April",
   listOfObjects[5]
 );
 let postSixSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr sex",
   "Jag tränar på SATC, vart tränar ni?",
   "6 April",
   listOfObjects[5]
 );
 let postSevenSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr sju",
   "Idag har jag haft en cheatday, ätit 8000 kalorier, bra för musklerna",
   "7 April",
   listOfObjects[5]
 );
 let postEightSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr 8",
   "Hej alla, idag körde jag både löprunda och benpass på gymmet.",
   "8 April",
   listOfObjects[5]
 );
 let postNineSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr 9",
   "Förkyld, så blir inget idag",
   "9 April",
   listOfObjects[5]
 );
 let postTenSix: Post = new Post(
   "6",
-  "Inlägg nr",
+  "Inlägg nr 10",
   "Hejhej alla, idag blir det helkropp på gymmet. Glöm inte att dricka pwo för energin...",
   "10 April",
   listOfObjects[5]
